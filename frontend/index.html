@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Meeting Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="glass-panel">
+            <div class="logo">
+                <div class="pulse-indicator" id="status-indicator"></div>
+                <h1>AI Meeting Assistant</h1>
+            </div>
+            <div class="controls">
+                <button id="btn-start" class="btn primary">Start Assistant</button>
+                <button id="btn-stop" class="btn danger" disabled>Stop</button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Left Column: Transcript -->
+            <section class="transcript-section glass-panel">
+                <div class="section-header">
+                    <h2>Live Transcript</h2>
+                    <span class="badge" id="transcript-status">Waiting...</span>
+                </div>
+                <div class="transcript-content" id="transcript-box">
+                    <p class="placeholder">Click 'Start Assistant' to begin listening to system audio.</p>
+                </div>
+            </section>
+
+            <!-- Right Column: AI Suggestions -->
+            <section class="suggestions-section glass-panel">
+                <div class="section-header">
+                    <h2>Smart Suggestions</h2>
+                    <span class="badge ai-badge" id="ai-status">Idle</span>
+                </div>
+                <div class="suggestions-content" id="suggestions-box">
+                    <p class="placeholder">AI suggestions will appear here when questions or pauses are detected.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
