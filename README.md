@@ -1,4 +1,4 @@
-# AI Meeting Assistant — MVP
+# AI Meeting Assistant
 
 A completely free, locally-running AI meeting assistant that captures your system audio (Teams, Zoom, etc.), transcribes speech using `faster-whisper`, and generates smart response suggestions using local `Ollama` models.
 
