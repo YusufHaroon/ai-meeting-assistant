@@ -2,7 +2,7 @@
 
 A completely free, locally-running AI meeting assistant that captures your system audio (Teams, Zoom, etc.), transcribes speech using `faster-whisper`, and generates smart response suggestions using local `Ollama` models.
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Install System Audio Routing (Windows)
 Since we want to capture "system audio" (what other people are saying) instead of just your microphone:
