@@ -52,7 +52,7 @@ Then go to `http://localhost:3000` in your browser.
 
 ---
 
-## 🚀 How to Use
+## How to Use
 1. Ensure Ollama and the Backend are running.
 2. Open the Website.
 3. Click **"Start Assistant"**.
