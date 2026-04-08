@@ -5,7 +5,7 @@ A completely free, locally-running AI meeting assistant that captures your syste
 ## Setup Instructions
 
 ### 1. Install System Audio Routing (Windows)
-Since we want to capture "system audio" (what other people are saying) instead of just your microphone:
+Since we are capturing "system audio" (what other people are saying) instead of just our own microphone:
 1. Download **VB-CABLE Virtual Audio Device** for free: https://vb-audio.com/Cable/
 2. Extract the ZIP and run `VBCABLE_Setup_x64.exe` as Administrator.
 3. Reboot your computer.
