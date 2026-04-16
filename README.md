@@ -15,7 +15,7 @@ We are capturing "system audio" (what other people are saying) instead of just o
 *(Note: Windows WASAPI loopback is also supported automatically, but VB-CABLE is the most reliable fallback).*
 
 ### 2. Install Python Dependencies
-Ensure you have Python 3.10+ installed.
+Ensure you have Python 3.10+ installed
 ```powershell
 cd backend
 pip install -r requirements.txt
