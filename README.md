@@ -1,6 +1,6 @@
 # AI Meeting Assistant
 
-Locally-running AI meeting assistant that captures system audio (Teams, Zoom, etc.), transcribes speech using `faster-whisper`, and generates smart response suggestions using the local `Ollama` models.
+A Locally-running AI meeting assistant that captures system audio (Teams, Zoom, etc.), transcribes speech using `faster-whisper`, and generates smart response suggestions using the local `Ollama` models.
 
 ## Setup Instructions
 
